@@ -1,0 +1,68 @@
+#nav{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+.logo {
+    position: relative;
+    width: 100%;
+}
+.logo img {
+    width: 100%;
+    display: block;
+    height: 700px;
+}
+.description {
+  position: absolute;
+  bottom:0;
+  width:100%;
+  text-align: center;
+  opacity: 0;
+  color:black;
+  background-color: #dcdcdc;
+  padding: 10px;
+  transition: opacity 0.3s ease;
+}
+.logo:hover .description {
+  opacity: 1;
+}
+
+.profile_photo {
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+
+.line{
+  width: 200px;
+  height: 3px ;
+  background-color: #00796b;
+  margin: 30px auto;
+  border-radius: 5px;
+  
+}
+
+.projects{
+  border-radius: 20px;
+  height: auto;
+  width: 200px;
+  margin: auto;
+  display: block;
+}
+
+.photo-table{
+  height: 200px;
+  width: 200px;
+  padding: 3px;
+}
+
+.Photos{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
