@@ -1,0 +1,26 @@
+.articles{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.article{
+        width: 300px;
+        border: 1px solid;
+        padding: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+
+}
+
+.images{
+    width: 100px;
+    height: 100px;
+
+}
+
+.btn
+{
+    margin: 20px auto;
+}
