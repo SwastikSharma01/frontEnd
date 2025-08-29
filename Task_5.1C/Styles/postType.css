@@ -1,0 +1,43 @@
+.Header
+{
+  position: absolute;  
+  width: 100%;
+  top: 0;               
+  left: 0;
+  margin: 5px;         
+  display: flex;
+  gap: 2px;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3, p 
+{
+  margin: 10px;   
+}
+
+.title
+{
+  margin-top: 3px;
+  margin-left: 752px;
+  font-size:xx-large;
+  font-weight: bold;
+  font-style: oblique;
+}
+
+.radios
+{
+  display:flex;
+  margin-top: 15px;
+  margin-left: 580px; 
+  
+}
+
+.radios input{
+  margin-left: 20px;
+}
+
+.radioin
+{
+    margin-right: 30px;
+}
