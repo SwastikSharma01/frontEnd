@@ -1,0 +1,58 @@
+.Registerbackground {
+  width: 85%;
+  height: 700px;
+  margin: 45px auto;
+  border-radius: 2rem;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+.Registercard {
+
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  height: 500px;
+  padding: 2rem;
+  border-radius: 1.5rem;
+  background: rgba(255, 255, 255, 0.1);
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  color: white;
+  
+}
+
+.Registercard h1 {
+  margin-bottom: 3rem;
+  font-size: xx-large;
+  text-align: center;
+}
+
+.Registercard input {
+  width: 65%;
+  padding: 0.7rem;
+  margin: 0.7rem 0 1.5rem;
+  margin-left: 120px;
+  border: none;
+  border-radius: 0.5rem;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.4);
+  background: transparent;
+  font-weight: 700;
+}
+
+.Registercard input::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: bold;
+}
+
+.Registercard button
+{
+    margin: 10px;
+    width: 55%;
+    margin-left: 178px;
+}
+
