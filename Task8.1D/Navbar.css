@@ -1,0 +1,33 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #6C2DC7;
+  padding: 16px 40px;
+  border-bottom: 1px solid #eee;
+}
+
+.title{
+  color: #eee;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.links {
+  list-style: none;
+  display: flex;
+  gap: 24px;
+}
+
+.links li a {
+  text-decoration: none;
+  color: #eee;
+  font-weight: 500;
+  font-size: 1rem; 
+  transition: font-size 0.25s ease, font-weight 0.25s ease; 
+}
+
+.links li a:hover {
+  font-size: 1.125rem;  
+  font-weight: 700;
+}

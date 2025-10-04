@@ -1,0 +1,53 @@
+.form {
+  width: 60%;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.form h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.form label {
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.form input,
+.form textarea {
+  margin-top: 6px;
+  padding: 10px;
+  width: 100%;
+  font-size: 14px;
+  font-weight: 500;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: vertical;
+  box-sizing: border-box;
+}
+
+.form textarea {
+  height: 150px;
+}
+
+.form button {
+  align-self: center;
+  width: 100px;
+  height: 40px;
+  background-color: #90ee90;
+  color: black;
+  font-weight: 700;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form button:hover {
+  background-color: #7ed87e;
+}
