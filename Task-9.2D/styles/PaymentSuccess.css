@@ -1,0 +1,98 @@
+.payment-success-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  text-align: center;
+  font-family: "Inter", Arial, sans-serif;
+  color: #1d1d1f;
+  background-color: #fcfcfd;
+  padding: 20px;
+}
+
+.loading-section h2 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #111;
+}
+
+.spinner {
+  border: 4px solid #e0e0e0;
+  border-top: 4px solid #2997ff;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  animation: spin 1s linear infinite;
+  margin-bottom: 20px;
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.success-icon {
+  font-size: 64px;
+  color: #28a745;
+  background: #e9f7ef;
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 16px;
+  box-shadow: 0 0 15px rgba(40, 167, 69, 0.2);
+}
+
+.success-section h1 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #111;
+  margin-bottom: 10px;
+}
+
+.subtext {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 24px;
+}
+
+.features-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 24px;
+  font-size: 16px;
+  line-height: 1.8;
+  color: #111;
+}
+
+.redirect-text {
+  font-size: 14px;
+  color: #666;
+  margin-top: 10px;
+}
+
+.error-section {
+  color: #b00020;
+}
+
+.error-section button {
+  margin-top: 20px;
+  background: none;
+  border: 1px solid #b00020;
+  color: #b00020;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.error-section button:hover {
+  background-color: #b00020;
+  color: #fff;
+  box-shadow: 0 0 10px rgba(176, 0, 32, 0.35);
+}
